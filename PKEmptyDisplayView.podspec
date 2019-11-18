@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PKEmptyDisplayView/class/*"
+  spec.source_files  = "PKEmptyDisplayView/class/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -103,8 +103,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "EmptyView/class/*.png"
-
+  # spec.resources = "PKEmptyDisplayView/class/*.png"
+  spec.resource_bundles = {
+    'PKEmptyDisplayView' => ['PKEmptyDisplayView/**/*.xcassets']
+  }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1120"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B52C85622D43C2700B6A3C5"
-               BuildableName = "EmptyView.app"
-               BlueprintName = "EmptyView"
-               ReferencedContainer = "container:EmptyView.xcodeproj">
+               BuildableName = "PKEmptyDisplayView.app"
+               BlueprintName = "PKEmptyDisplayView"
+               ReferencedContainer = "container:PKEmptyDisplayView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B52C85622D43C2700B6A3C5"
-            BuildableName = "EmptyView.app"
-            BlueprintName = "EmptyView"
-            ReferencedContainer = "container:EmptyView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -54,18 +45,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B52C85622D43C2700B6A3C5"
-            BuildableName = "EmptyView.app"
-            BlueprintName = "EmptyView"
-            ReferencedContainer = "container:EmptyView.xcodeproj">
+            BuildableName = "PKEmptyDisplayView.app"
+            BlueprintName = "PKEmptyDisplayView"
+            ReferencedContainer = "container:PKEmptyDisplayView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-         <AdditionalOption
-            key = "NSZombieEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </AdditionalOption>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -78,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B52C85622D43C2700B6A3C5"
-            BuildableName = "EmptyView.app"
-            BlueprintName = "EmptyView"
-            ReferencedContainer = "container:EmptyView.xcodeproj">
+            BuildableName = "PKEmptyDisplayView.app"
+            BlueprintName = "PKEmptyDisplayView"
+            ReferencedContainer = "container:PKEmptyDisplayView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
